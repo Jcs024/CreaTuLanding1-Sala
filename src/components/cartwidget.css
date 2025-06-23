@@ -1,0 +1,18 @@
+.cartwidget{
+    display: flex;
+    padding: 20px;
+}
+.cartwidget h2{
+    color: rgb(0, 167, 0);
+}
+.carrito{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carrito:hover{
+    color: rgb(0, 255, 255);
+    transition: 0.5s;
+}
