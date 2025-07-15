@@ -1,0 +1,21 @@
+.itemlistcontainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    max-height: none;
+    margin: auto;
+    background-color: rgb(10, 20, 29);
+    justify-content: center;
+    align-items: center;
+    padding: 1vh 2vh;
+    margin-top: 20px;
+      
+}
+.item-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

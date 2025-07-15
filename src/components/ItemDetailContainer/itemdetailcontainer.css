@@ -1,0 +1,35 @@
+.item-detail{
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    max-width: 800px;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    background-color: rgb(10, 20, 29);
+}
+
+.item-detail p{
+    margin: 20px;
+}
+.item-detail-title{
+    font-size:x-large;
+}
+.item-detail-text{
+    height: 360px;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(13, 32, 51);
+}
+.item-detail-price{
+    width: auto;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(10, 20, 29);
+}
+.item-detail-img{
+    width: 240px;
+    height: 360px;
+}

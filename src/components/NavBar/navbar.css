@@ -15,11 +15,9 @@
 }
 
 .navbar ul{
-    
+    list-style: none;
     width: 70%;
     display: flex;
-    text-decoration: none;
-    list-style: none;
     justify-content: end;
     align-items: center;
     padding: 20px;
@@ -34,7 +32,10 @@
     margin-left: 10px;
     border-radius: 5px;
 }
-
+.category{
+    text-decoration: none;
+    
+}
 .navbar ul li:hover{
     color: rgb(0, 255, 255);
     transition: 0.5s;
