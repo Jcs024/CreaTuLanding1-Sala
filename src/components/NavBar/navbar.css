@@ -1,3 +1,4 @@
+
 .navbar{
     display: flex;
     width: 100%;
@@ -23,20 +24,25 @@
     padding: 20px;
 }
 
-.navbar ul li{
+.navbar ul li {
+    padding: 0; /* para que no se duplique el padding */
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(10, 26, 42);
+    cursor: pointer;
+}
+
+.category {
+    display: block; /* esto hace que el link sea un bloque entero */
+    padding: 20px;
     font-weight: bold;
     font-size: 20px;
-    padding: 20px;
-    cursor: pointer;
-    background-color: rgb(10, 26, 42);
-    margin-left: 10px;
-    border-radius: 5px;
-}
-.category{
+    color: white;
     text-decoration: none;
-    
+    border-radius: 10px;
 }
-.navbar ul li:hover{
+
+.category:hover {
     color: rgb(0, 255, 255);
     transition: 0.5s;
 }

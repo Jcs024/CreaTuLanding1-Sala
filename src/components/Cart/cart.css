@@ -1,0 +1,105 @@
+.cart-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 50px;
+    background-color:rgb(10, 20, 29) ;
+}
+.item-container{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(10, 26, 42);
+    border-radius: 10px;
+}
+.title{
+    max-width: 150px;
+}
+.cart-container img{
+    max-width: 200px;
+    max-height: 300px;
+    border-radius: 10px;
+}
+.carrito-vaciar-btn {
+  background-color: rgba(255, 82, 82, 0.8); 
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 20%;
+  max-width: 300px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.carrito-vaciar-btn:hover{
+    background-color: rgba(255, 82, 82, 1);
+}
+.carrito-comprar-btn {
+  background-color: rgba(4, 217, 255, 0.71);
+  color: white;
+  border: none;
+  height: 45px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 300px;
+  width: 300px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  gap: 8px;
+}
+
+.carrito-item-controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.cantidad-btn {
+  background-color: rgb(10, 20, 29);
+  border: none;
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vacio {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  background-color: rgb(10, 20, 29);
+  width: 1000px;
+  max-width: 90%; 
+  gap: 10px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.vacio h2{
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.vacio a{
+  text-decoration: none;
+}

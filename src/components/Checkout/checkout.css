@@ -1,0 +1,85 @@
+ .checkout-panel{
+    display: flex;
+    justify-content: center;
+ }
+ .checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 500px;
+  background-color: rgb(10, 26, 42);
+  margin: 20px;
+  padding: 20px;
+}
+
+ .checkout-form label {
+  font-weight: bold;
+  color: white;
+}
+.checkout-form h2{
+    margin: 0px;
+}
+.checkout-form p{
+    margin-bottom: 5px;
+}
+
+ .checkout-form input,
+ .checkout-form select {
+  padding: 10px;
+  background-color: rgb(20, 45, 68); 
+  border: 1px solid rgba(4, 217, 255, 0.7); 
+  border-radius: 4px;
+  color: white;
+  width: 200px;
+}
+
+ .checkout-form input:focus,
+ .checkout-form select:focus {
+  outline: none;
+  border-color: rgba(4, 217, 255, 0.9); 
+}
+
+ .checkout-form button[type="submit"],
+ .checkout-form .btn-success {
+  margin-top: 15px;
+  background-color: rgba(14, 190, 102, 0.8);
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  margin: 5px;
+}
+
+ .checkout-form button[type="submit"]:hover,
+ .checkout-form .btn-success:hover {
+  background-color: rgba(112, 255, 188, 0.9); 
+}
+.form-buttons{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.btn-cancel {
+  background-color: rgba(255, 82, 82, 0.8); 
+  border: none;
+  color: white;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  margin: 5px;
+}
+
+.btn-cancel:hover {
+  background-color: rgba(255, 102, 102, 0.9); 
+}
+

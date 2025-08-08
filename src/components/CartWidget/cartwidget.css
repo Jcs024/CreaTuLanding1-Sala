@@ -1,9 +1,14 @@
 .cartwidget{
     display: flex;
     padding: 20px;
+    text-decoration: none;
 }
 .cartwidget h2{
     color: rgb(0, 167, 0);
+}
+.cartwidget p{
+    text-decoration: none;
+    color: rgb(0, 255, 200);
 }
 .carrito{
     width: 40px;
